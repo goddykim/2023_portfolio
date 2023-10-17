@@ -503,6 +503,35 @@ header .inner .menu ul li {
 #fullpage .section .design .inner .imglist a {
     margin-right: 40px;
     margin-bottom: 40px;
+    position: relative;
+}
+#fullpage .section .design .inner .imglist .ps::after {
+    content: 'Ps';
+    width: 60px;
+    height: 28px;
+    background-color: #092347;
+    color: #56ebfc;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    line-height: 28px;
+    font-size: 24px;
+}
+#fullpage .section .design .inner .imglist .ai::after {
+    content: 'Ai';
+    width: 60px;
+    height: 28px;
+    background-color: #1c0802;
+    color: #ff5b24;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    line-height: 28px;
+    font-size: 24px;
 }
 #fullpage .section .design .inner .imglist a:nth-child(4) {
     margin-right: 0;
