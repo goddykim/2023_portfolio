@@ -84,7 +84,7 @@ header .inner .menu ul li {
 #fullpage .section .main .bottom {
     width: 100%;
     height: 80px;
-    background-color: #5d7599;
+    background-color: #c2c4b6;
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -94,7 +94,7 @@ header .inner .menu ul li {
     font-size: 36px;
     text-align: center;
     line-height: 80px;
-    color: white;
+    color: #333;
 }
 #fullpage .section .report {
     width: 120px;
@@ -119,6 +119,7 @@ header .inner .menu ul li {
     width: 100%;
     height: 100vh;
     position: relative;
+    background-color: #dadada;
 }
 #fullpage .section .profile .bg {
     width: 100%;
@@ -147,7 +148,7 @@ header .inner .menu ul li {
 #fullpage .section .profile .inner .box {
     width: 100%;
     height: calc(100vh - 240px);
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -187,7 +188,6 @@ header .inner .menu ul li {
 }
 #fullpage .section .profile .inner .box .box_2 .edu {
     width: 100%;
-    /* margin-top: 40px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -218,7 +218,7 @@ header .inner .menu ul li {
     justify-content: center;
 }
 #fullpage .section .profile .inner .box .box_2 .skill .img img {
-    margin-right: 20px;
+    margin-right: 10px;
 }
 #fullpage .section .profile .inner .box .box_2 .skill .img img:last-child {
     margin-right: 0;
@@ -229,6 +229,7 @@ header .inner .menu ul li {
 #fullpage .section .slide {
     width: 100%;
     height: 100vh;
+    background-color: #dadada;
 }
 #fullpage .section .slide .inner {
     width: 1440px;
@@ -259,7 +260,7 @@ header .inner .menu ul li {
 #fullpage .section #slide1 .inner .cube {
     width: 100%;
     height: calc(100vh - 240px);
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -285,22 +286,24 @@ header .inner .menu ul li {
 #fullpage .section #slide1 .inner .cube .txt h3 {
     font-size: 40px;
     text-align: center;
+    margin-bottom: 20px;
 }
 #fullpage .section #slide1 .inner .cube .txt a {
-    width: 240px;
-    height: 80px;
+    width: 160px;
+    height: 40px;
     display: block;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: #3485c3;
     color: white;
-    font-size: 36px;
+    font-size: 24px;
     text-align: center;
-    line-height: 80px;
-    margin: 20px 0;
+    line-height: 40px;
+    margin-bottom: 10px;
 }
 #fullpage .section #slide1 .inner .cube .txt p {
-    font-size: 32px;
+    font-size: 20px;
     text-align: center;
+    
 }
 
 /* ssg */
@@ -326,7 +329,7 @@ header .inner .menu ul li {
 #fullpage .section #slide2 .inner .ssg {
     width: 100%;
     height: calc(100vh - 240px);
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -352,21 +355,22 @@ header .inner .menu ul li {
 #fullpage .section #slide2 .inner .ssg .txt h3 {
     font-size: 40px;
     text-align: center;
+    margin-bottom: 20px;
 }
 #fullpage .section #slide2 .inner .ssg .txt a {
-    width: 240px;
-    height: 80px;
+    width: 160px;
+    height: 40px;
     display: block;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: #d11e35;
     color: white;
-    font-size: 36px;
+    font-size: 24px;
     text-align: center;
-    line-height: 80px;
-    margin: 20px 0;
+    line-height: 40px;
+    margin-bottom: 10px;
 }
 #fullpage .section #slide2 .inner .ssg .txt p {
-    font-size: 32px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -393,9 +397,9 @@ header .inner .menu ul li {
 #fullpage .section #slide3 .inner .cubee {
     width: 100%;
     height: calc(100vh - 240px);
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: white;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 #fullpage .section #slide3 .inner .cubee .box_1 {
@@ -404,9 +408,10 @@ header .inner .menu ul li {
 }
 #fullpage .section #slide3 .inner .cubee .box_1 .img {
     width: 100%;
-    height: 75%;
+    height: 60%;
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 #fullpage .section #slide3 .inner .cubee .box_1 .img img {
     height: 100%;
@@ -419,59 +424,84 @@ header .inner .menu ul li {
     align-items: center;
 }
 #fullpage .section #slide3 .inner .cubee .box_1 .txt h3 {
-    font-size: 40px;
+    font-size: 32px;
     text-align: center;
-    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#fullpage .section #slide3 .inner .cubee .box_1 .txt .a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 #fullpage .section #slide3 .inner .cubee .box_1 .txt a {
-    width: 240px;
-    height: 80px;
+    width: 120px;
+    height: 40px;
     display: block;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: #3485c3;
     color: white;
-    font-size: 36px;
+    font-size: 24px;
     text-align: center;
-    line-height: 80px;
-    margin: 20px 0;
+    line-height: 40px;
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
-
+#fullpage .section #slide3 .inner .cubee .box_1 .txt a:nth-child(2) {
+    margin-right: 0;
+}
+#fullpage .section #slide3 .inner .cubee .box_1 .txt P {
+    font-size: 20px;
+}
 #fullpage .section #slide3 .inner .cubee .box_2 {
     width: 400px;
     height: 75%;
 }
 #fullpage .section #slide3 .inner .cubee .box_2 .img {
     width: 100%;
-    height: 75%;
+    height: 60%;
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 #fullpage .section #slide3 .inner .cubee .box_2 .img img {
     height: 100%;
     object-fit: cover;
 }
 #fullpage .section #slide3 .inner .cubee .box_2 .txt {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 #fullpage .section #slide3 .inner .cubee .box_2 .txt h3 {
-    font-size: 40px;
+    font-size: 32px;
     text-align: center;
-    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#fullpage .section #slide3 .inner .cubee .box_2 .txt .a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 #fullpage .section #slide3 .inner .cubee .box_2 .txt a {
-    width: 240px;
-    height: 80px;
+    width: 120px;
+    height: 40px;
     display: block;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: #3485c3;
     color: white;
-    font-size: 36px;
+    font-size: 24px;
     text-align: center;
-    line-height: 80px;
-    margin: 20px 0;
+    line-height: 40px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+#fullpage .section #slide3 .inner .cubee .box_2 .txt a:nth-child(2) {
+    margin-right: 0;
+}
+#fullpage .section #slide3 .inner .cubee .box_2 .txt p {
+    font-size: 20px;
 }
 
 /* design */
